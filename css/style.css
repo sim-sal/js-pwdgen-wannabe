@@ -1,0 +1,24 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container > div{
+    background-color: rgb(133, 4, 4);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#mio_id{
+    color: white;
+    font-size: 40px;
+}
