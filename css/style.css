@@ -13,13 +13,17 @@
 }
 
 .container > div{
-    background-color: rgb(133, 4, 4);
+    background-color: rgb(170, 145, 109);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 10px 10px 5px rgb(32, 32, 32);
 }
 
 #mio_id{
+    color: black;
+    font-size: 45px;
+}
+
+#testo_messaggio{
     color: white;
-    font-size: 40px;
 }

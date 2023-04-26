@@ -18,12 +18,13 @@ password = nomeUtente + cognomeUtente + coloreUtente + 21;
 console.log(password);
 
 // creo messaggio per utente
-messaggio = `La tua password generata è: ${password}`;
+messaggio = `La tua password generata è: `;
 console.log(messaggio);
 
 // infine, riportare il tutto sulla pagina
-document.getElementById("mio_id").innerHTML = messaggio;
+document.getElementById("testo_messaggio").innerHTML = messaggio;
 
+document.getElementById("mio_id").innerHTML = password;
 
 
 
